@@ -3,7 +3,6 @@ import pandas as pd
 # Caminho para o arquivo Excel
 arquivo_excel = "02_-_Ordem_cronologica_de_pagamentos_realizados_-_Fevereiro.25.xlsx"
 
-# Lê a planilha pulando as duas primeiras linhas (linha 3 = índice 2)
 df = pd.read_excel(arquivo_excel, sheet_name="Table 1", header=2)
 
 # Mostra as colunas para garantir
